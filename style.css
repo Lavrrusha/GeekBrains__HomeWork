@@ -27,8 +27,9 @@
     }
 
     .container {
+        max-width: 1178px;
         margin: 0 auto;
-        width: 1147px;
+        padding: 0px 15px;
     }
 
     .header {
@@ -38,6 +39,8 @@
     .main-navigation {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
     }
 
     .main-navigation__link {
@@ -106,6 +109,7 @@
         justify-content: space-between;
         gap: 130px;
         margin-bottom: 200px;
+        flex-wrap: nowrap;
     }
 
     .logotypes {
@@ -113,6 +117,7 @@
         justify-content: space-around;
         gap: 70px;
         margin-bottom: 255px;
+        flex-wrap: wrap;
     }
 
     .two-screening {
@@ -272,6 +277,10 @@
             padding-right: calc(50% - 376px);
         }
 
+        .first-scrin {
+            flex-wrap: wrap;
+        }
+
         .first-scrin__subtitle {
             font-style: 16px;
         }
@@ -294,7 +303,7 @@
             grid-template-columns: repeat(1, 362px);
             gap: 30px;
         }
-        
+
         .item-big {
             grid-column: span 1;
             grid-row: span 1;
