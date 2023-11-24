@@ -478,7 +478,8 @@
         gap: 32px;
         margin-bottom: 64px;
         align-content: flex-end;
-        
+        padding: 65px 0;
+        margin: 0;
       }
 
       .footer__title {
