@@ -387,110 +387,116 @@
 
       .footer {
         padding: 50px;
-        }
-
       }
 
-      @media (max-width: 375px) {
+    }
 
-        .main-navigation__link {
-          padding: 40px 8px;
-        }
+    @media (max-width: 375px) {
 
-        .first-scrin {
-          margin-bottom: 128px;
-        }
-
-        .first-scrin__subtitle {
-          text-align: center;
-          margin-bottom: 16px;
-          font-size: 14px;
-        }
-
-        .first-scrin__title {
-          width: 342px;
-          font-size: 28px;
-          text-align: center;
-        }
-
-        .first-scrin__text {
-          width: 343px;
-          text-align: center;
-          margin-bottom: 39px;
-        }
-
-        .button {
-          text-align: center;
-          margin: 0;
-          margin-bottom: 24px;
-        }
-
-        .logotypes {
-          margin-bottom: 108px;
-        }
-
-        .two-screening__title {
-          font-size: 24px;
-          padding-bottom: 16px;
-          width: 100%;
-          text-align: center;
-          width: 343px;
-        }
-
-        .two-screening__text {
-          width: 343px;
-          text-align: center;
-          margin-bottom: 16px;
-        }
-
-        .main-left {
-          text-align: center;
-        }
-
-        .four-screening {
-          flex-direction: column;
-          text-align: center;
-        }
-
-        .four-screening__title {
-          width: 342px;
-          font-size: 24px;
-          margin-bottom: 64px;
-        }
-
-        .text-column {
-          text-align: center;
-          width: 338px;
-          margin-bottom: 32px;
-        }
-
-        .three-screening {
-          padding: 95px;
-        }
-
-        .footer-flex {
-          flex-direction: column;
-          gap: 32px;
-          justify-content: left;
-          margin-bottom: 64px;
-        }
-
-        .footer__title {
-          text-align: center;
-          width: 340px;
-        }
-
-        .top {
-          flex-direction: column-reverse;
-          justify-content: left;
-          gap: 32px;
-        }
-
-        .footer-right {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-
+      .main-navigation__link {
+        padding: 40px 8px;
       }
+
+      .first-scrin {
+        margin-bottom: 128px;
+      }
+
+      .first-scrin__subtitle {
+        text-align: center;
+        margin-bottom: 16px;
+        font-size: 14px;
+      }
+
+      .first-scrin__title {
+        width: 342px;
+        font-size: 28px;
+        text-align: center;
+      }
+
+      .first-scrin__text {
+        width: 343px;
+        text-align: center;
+        margin-bottom: 39px;
+      }
+
+      .button {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 24px;
+      }
+
+      .logotypes {
+        margin-bottom: 108px;
+      }
+
+      .two-screening__title {
+        font-size: 24px;
+        padding-bottom: 16px;
+        width: 100%;
+        text-align: center;
+        width: 343px;
+      }
+
+      .two-screening__text {
+        width: 343px;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      .main-left {
+        text-align: center;
+      }
+
+      .four-screening {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .four-screening__title {
+        width: 342px;
+        font-size: 24px;
+        margin-bottom: 64px;
+      }
+
+      .text-column {
+        text-align: center;
+        width: 338px;
+        margin-bottom: 32px;
+      }
+
+      .three-screening {
+        padding: 95px;
+      }
+
+      .footer {
+        padding: 0;
+      }
+
+      .footer-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+        align-content: flex-end;
+        
+      }
+
+      .footer__title {
+        text-align: center;
+        width: 340px;
+      }
+
+      .top {
+        flex-direction: column-reverse;
+        justify-content: left;
+        gap: 32px;
+      }
+
+      .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+    }
